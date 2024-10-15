@@ -1,0 +1,24 @@
+//Colored top bar to distinguish repo from others
+{
+    "workbench.colorCustomizations": {
+        "titleBar.inactiveBackground": "#0382cc",
+        "titleBar.activeBackground": "#0382cc",
+        "titleBar.inactiveForeground": "#000000",
+        "titleBar.activeForeground": "#000000"
+    },
+    "files.associations": {
+        "typeinfo": "c",
+        "developer.h": "c",
+        "string": "c",
+        "string_view": "c",
+        "__locale": "c",
+        "complex": "c",
+        "main_menu.h": "c"
+    },
+    "terminal.integrated.profiles.windows": {
+        "x64NativeToolsCommandPrompt": {
+            "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
+            "args": ["/d", "/k", "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\Build\\vcvars64.bat"]
+        }
+    }
+}
